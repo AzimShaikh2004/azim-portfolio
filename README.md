@@ -5,7 +5,7 @@ A high-fidelity, interactive 3D developer portfolio built with React, TypeScript
 This project showcases my journey as an aspiring Cloud & DevSecOps Engineer and Full-Stack Developer. It features a modern, dark-themed design with smooth animations, custom 3D avatars, and a dedicated project section with custom UI mockups.
 
 ## 🚀 Live Demo
-[Link to your live portfolio will go here!]
+https://azim-portfolio-krsv.vercel.app/
 
 ## ✨ Features
 - **Dynamic 3D Hero Section**: Custom animated avatar and sleek typography.
