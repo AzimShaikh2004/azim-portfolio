@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# Mohammed Azim Shaikh - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, interactive 3D developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion. 
 
-Currently, two official plugins are available:
+This project showcases my journey as an aspiring Cloud & DevSecOps Engineer and Full-Stack Developer. It features a modern, dark-themed design with smooth animations, custom 3D avatars, and a dedicated project section with custom UI mockups.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+[Link to your live portfolio will go here!]
 
-## React Compiler
+## ✨ Features
+- **Dynamic 3D Hero Section**: Custom animated avatar and sleek typography.
+- **Magnetic Interactions**: Magnetic hover effects on buttons and profile elements.
+- **Education & Experience**: Detailed breakdown of my academic background and internships.
+- **Interactive Project Stack**: A scroll-driven, sticky-stacking project card section.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Performance**: Built with Vite for lightning-fast HMR and build times.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend**: React.js, TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Custom SVG Icons
+- **Build Tool**: Vite
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AzimShaikh2004/jack-3d-portfolio.git
+   ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📧 Contact
+- **Email**: [shamimashaikh2004@gmail.com](mailto:shamimashaikh2004@gmail.com) | [azim03013@gmail.com](mailto:azim03013@gmail.com)
+- **LinkedIn**: [linkedin.com/in/mohammed-azim-shaikh](https://linkedin.com/in/mohammed-azim-shaikh)
+- **GitHub**: [github.com/AzimShaikh2004](https://github.com/AzimShaikh2004)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+© 2026 Mohammed Azim Ajaz Shaikh
