@@ -3,6 +3,7 @@ import { MarqueeSection } from './sections/MarqueeSection';
 import { AboutSection } from './sections/AboutSection';
 import { ServicesSection } from './sections/ServicesSection';
 import { ProjectsSection } from './sections/ProjectsSection';
+import { CertificationsSection } from './sections/CertificationsSection';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <CertificationsSection />
 
       {/* Footer / Contact Section */}
-      <section id="contact" className="bg-[#0C0C0C] py-20 px-5 sm:px-8 md:px-10 border-t border-white/10 flex flex-col items-center">
+      <section id="contact" className="bg-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-40 relative py-20 px-5 sm:px-8 md:px-10 border-t border-white/10 flex flex-col items-center">
         <h2 className="hero-heading font-black uppercase text-center text-[clamp(2.5rem,8vw,100px)] mb-12 sm:mb-16 leading-none tracking-tight">
           Get in touch
         </h2>
