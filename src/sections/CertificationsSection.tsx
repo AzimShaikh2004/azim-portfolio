@@ -36,6 +36,11 @@ const certificates = [
     title: "MAS Blockchain Certificate",
     issuer: "Mohammed Azim Ajaz Shaikh",
     file: "/certificates/MAS_Blockchain.pdf"
+  },
+  {
+    title: "Ethical Hacking Certificate",
+    issuer: "Mohammed Azim Ajaz Shaikh",
+    file: "/certificates/MAS_Ethical_Hacking.pdf"
   }
 ];
 
